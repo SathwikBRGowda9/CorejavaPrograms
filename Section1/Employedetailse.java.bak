@@ -1,0 +1,24 @@
+class Employedetailse 
+{
+	public static void main(String[] args) 
+	{
+				System.out.println("----Employees Details-----);
+		
+		String name="Sathwik";
+		System.out.println(name);
+		byte age=21;
+		System.out.println(age);
+		char gender='m';
+		System.out.println(gender);
+		short sal=23000;
+		System.out.println(sal);
+		String department="Web Developer";
+		System.out.println(department);
+		String emailid="Sathwikbr07@gmail.com";
+		System.out.println(emailid);
+		String Exprierence="3 Year";
+		System.out.println(Exprierence);
+		
+		
+	}
+}

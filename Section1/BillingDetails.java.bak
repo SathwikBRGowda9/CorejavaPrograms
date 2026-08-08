@@ -1,0 +1,21 @@
+class BillingDetails
+{
+    public static void main(String[] args)
+    {
+        double price = 1000;
+        double discount = 20;   // 10%
+        double gst = 12;        // 12%
+
+        double discountAmount = (price * discount) / 100;
+        double AfterDiscount = price - discountAmount;
+
+        double gstAmount = (AfterDiscount * gst) / 100;
+        double finalBill = AfterDiscount + gstAmount;
+
+        System.out.println(price);
+        System.out.println( discount );
+        System.out.println(AfterDiscount);
+        System.out.println(gst );
+        System.out.println(finalBill);
+    }
+}

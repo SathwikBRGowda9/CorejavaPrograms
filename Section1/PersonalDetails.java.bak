@@ -1,0 +1,7 @@
+class PersonalDetails
+{
+    public static void main(String[] args)
+    {
+        System.out.println("My name is Sathwik.\nI am from Thirthahalli\n My father's name is Ravish B H.\n My mother's name is Sujaya N R.\n I studied BCA at Sri JCBM College, Sringeri.");
+    }
+}

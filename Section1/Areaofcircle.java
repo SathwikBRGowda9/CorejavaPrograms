@@ -1,0 +1,19 @@
+
+public class Areaofcircle {
+    public static void main(String[] args) {
+
+        System.out.println("Write a Java program to find the area, circumference, and diameter of a circle.");
+
+        double radius = 5;
+
+        double area = 3.14 * radius * radius;
+        double circumference = 2 * 3.14 * radius;
+        double diameter = 2 * radius;
+
+        System.out.println("Radius = " + radius);
+        System.out.println("Area = " + area);
+        System.out.println("Circumference = " + circumference);
+        System.out.println("Diameter = " + diameter);
+    
+    }
+}
